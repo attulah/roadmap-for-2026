@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tech Roadmaps 2026 - Complete Guide</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    body { 
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #0a0a0a;
+      color: #e0e0e0;
+    }
+    .roadmap-card:hover {
+      transform: translateY(-8px);
+      border-color: #06b6d4;
+      box-shadow: 0 25px 50px -12px rgba(6, 182, 212, 0.25);
+    }
+    .step-dot {
+      width: 40px; height: 40px;
+      background: linear-gradient(135deg, #06b6d4, #0593a9);
+      box-shadow: 0 0 0 6px rgba(6, 182, 212, 0.3);
+    }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- Hero Header -->
+  <div class="bg-gradient-to-b from-black to-zinc-950 py-20 text-center">
+    <h1 class="text-5xl md:text-6xl font-bold mb-4">
+      Tech Roadmaps 2026
+    </h1>
+    <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+      Har technology ka complete step-by-step roadmap — beginner se advanced tak
+    </p>
+  </div>
+
+  <!-- Main Content -->
+  <div class="max-w-7xl mx-auto px-6 lg:px-12 py-16">
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+
+      <!-- 1. Frontend -->
+      <div class="roadmap-card bg-zinc-900 border border-gray-800 rounded-3xl p-8 cursor-pointer">
+        <div class="text-6xl mb-6">🌐</div>
+        <h2 class="text-2xl font-bold mb-4">Frontend Developer</h2>
+        <div class="space-y-6 text-gray-300">
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Beginner</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>HTML5 (Semantic tags, Forms, Accessibility)</li>
+              <li>CSS3 (Flexbox, Grid, Animations, Media Queries)</li>
+              <li>JavaScript (ES6+, DOM, Events, Async/Await)</li>
+              <li>Git & GitHub Basics</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Intermediate</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>React.js (Hooks, Context, Router)</li>
+              <li>Tailwind CSS / Styled Components</li>
+              <li>API Integration (Fetch, Axios, REST)</li>
+              <li>Responsive + Mobile-first Design</li>
+              <li>TypeScript Basics</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Advanced</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Next.js (App Router, Server Components)</li>
+              <li>State Management (Zustand / Redux Toolkit)</li>
+              <li>Testing (Jest + React Testing Library)</li>
+              <li>Performance (Lighthouse, Core Web Vitals)</li>
+              <li>PWA + SEO Optimization</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Backend -->
+      <div class="roadmap-card bg-zinc-900 border border-gray-800 rounded-3xl p-8 cursor-pointer">
+        <div class="text-6xl mb-6">🔧</div>
+        <h2 class="text-2xl font-bold mb-4">Backend Developer</h2>
+        <div class="space-y-6 text-gray-300">
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Beginner</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Choose Language: Node.js / Python / Java / Go</li>
+              <li>HTTP, REST API Basics</li>
+              <li>Git & Version Control</li>
+              <li>Basic Database (SQLite / MySQL)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Intermediate</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Express.js / FastAPI / Spring Boot</li>
+              <li>Authentication (JWT, OAuth2)</li>
+              <li>PostgreSQL / MongoDB</li>
+              <li>ORM (Prisma / Sequelize / TypeORM)</li>
+              <li>API Design (REST + OpenAPI)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Advanced</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Microservices Architecture</li>
+              <li>Message Queues (Kafka / RabbitMQ)</li>
+              <li>Caching (Redis)</li>
+              <li>Rate Limiting & Security (OWASP)</li>
+              <li>Monitoring (Prometheus + Grafana)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Full Stack -->
+      <div class="roadmap-card bg-zinc-900 border border-gray-800 rounded-3xl p-8 cursor-pointer">
+        <div class="text-6xl mb-6">🔥</div>
+        <h2 class="text-2xl font-bold mb-4">Full Stack Developer</h2>
+        <div class="space-y-6 text-gray-300">
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Beginner</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>HTML + CSS + JavaScript</li>
+              <li>Basic Backend (Node.js + Express)</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Intermediate</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>MERN / MEVN / PERN Stack</li>
+              <li>React + Node + MongoDB / PostgreSQL</li>
+              <li>Authentication + Authorization</li>
+              <li>API Integration (Frontend ↔ Backend)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Advanced</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Next.js + tRPC / GraphQL</li>
+              <li>Docker + Docker Compose</li>
+              <li>CI/CD (GitHub Actions)</li>
+              <li>Deployment (Vercel / Render / AWS)</li>
+              <li>Monorepo (Turborepo / Nx)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. DevOps -->
+      <div class="roadmap-card bg-zinc-900 border border-gray-800 rounded-3xl p-8 cursor-pointer">
+        <div class="text-6xl mb-6">🚀</div>
+        <h2 class="text-2xl font-bold mb-4">DevOps Engineer</h2>
+        <div class="space-y-6 text-gray-300">
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Beginner</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Linux Basics & Shell Scripting</li>
+              <li>Git & GitHub / GitLab</li>
+              <li>Basic Networking & Servers</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Intermediate</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Docker & Docker Compose</li>
+              <li>CI/CD (GitHub Actions / Jenkins)</li>
+              <li>Cloud Basics (AWS / GCP / Azure)</li>
+              <li>Terraform (IaC)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Advanced</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Kubernetes (K8s) & Helm</li>
+              <li>Monitoring (Prometheus + Grafana)</li>
+              <li>Security (Vault, OPA, Trivy)</li>
+              <li>GitOps (ArgoCD / Flux)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. Data Analyst -->
+      <div class="roadmap-card bg-zinc-900 border border-gray-800 rounded-3xl p-8 cursor-pointer">
+        <div class="text-6xl mb-6">📊</div>
+        <h2 class="text-2xl font-bold mb-4">Data Analyst</h2>
+        <div class="space-y-6 text-gray-300">
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Beginner</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Excel / Google Sheets (Advanced Formulas, Pivot)</li>
+              <li>SQL (SELECT, JOIN, GROUP BY, Window Functions)</li>
+              <li>Basic Statistics</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Intermediate</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Python (Pandas, NumPy)</li>
+              <li>Data Visualization (Power BI / Tableau)</li>
+              <li>Google Data Studio / Looker Studio</li>
+              <li>Data Cleaning & Transformation</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Advanced</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Advanced SQL (CTEs, Recursive)</li>
+              <li>A/B Testing & Experimentation</li>
+              <li>Storytelling with Data</li>
+              <li>BigQuery / Snowflake Basics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. AI & Data Scientist -->
+      <div class="roadmap-card bg-zinc-900 border border-gray-800 rounded-3xl p-8 cursor-pointer">
+        <div class="text-6xl mb-6">🧠</div>
+        <h2 class="text-2xl font-bold mb-4">AI & Data Scientist</h2>
+        <div class="space-y-6 text-gray-300">
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Beginner</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Python (Advanced) + Math (Linear Algebra, Stats)</li>
+              <li>Pandas, NumPy, Matplotlib</li>
+              <li>SQL for Data</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Intermediate</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Scikit-learn (ML Algorithms)</li>
+              <li>Feature Engineering & Model Evaluation</li>
+              <li>Supervised & Unsupervised Learning</li>
+              <li>Time Series & NLP Basics</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Advanced</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Deep Learning (PyTorch / TensorFlow)</li>
+              <li>Transformers & LLMs</li>
+              <li>MLOps (MLflow, Kubeflow)</li>
+              <li>LLM Fine-tuning & RAG</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. React -->
+      <div class="roadmap-card bg-zinc-900 border border-gray-800 rounded-3xl p-8 cursor-pointer">
+        <div class="text-6xl mb-6">⚛️</div>
+        <h2 class="text-2xl font-bold mb-4">React Developer</h2>
+        <div class="space-y-6 text-gray-300">
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Beginner</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>JSX, Components, Props</li>
+              <li>State & useState</li>
+              <li>useEffect & Lifecycle</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Intermediate</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Custom Hooks</li>
+              <li>Context API</li>
+              <li>React Router v6</li>
+              <li>Forms (React Hook Form)</li>
+              <li>Performance (useMemo, useCallback)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Advanced</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Next.js 14 (App Router)</li>
+              <li>Server Components & Actions</li>
+              <li>TanStack Query / SWR</li>
+              <li>Zustand / Jotai</li>
+              <li>Testing (Vitest + RTL)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8. Java -->
+      <div class="roadmap-card bg-zinc-900 border border-gray-800 rounded-3xl p-8 cursor-pointer">
+        <div class="text-6xl mb-6">☕</div>
+        <h2 class="text-2xl font-bold mb-4">Java Developer</h2>
+        <div class="space-y-6 text-gray-300">
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Beginner</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Java Basics (OOP, Collections, Exceptions)</li>
+              <li>Streams & Lambda</li>
+              <li>Maven / Gradle</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Intermediate</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Spring Boot (REST API, JPA)</li>
+              <li>Spring Security (JWT)</li>
+              <li>PostgreSQL / MySQL</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-cyan-400 mb-2">Advanced</h3>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+              <li>Spring Cloud & Microservices</li>
+              <li>Kafka / RabbitMQ</li>
+              <li>Docker + Kubernetes</li>
+              <li>Reactive Programming (WebFlux)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more cards here in the same format for other technologies -->
+
+    </div>
+
+    <!-- More cards can be added similarly -->
+
+  </div>
+
+</body>
+</html>
